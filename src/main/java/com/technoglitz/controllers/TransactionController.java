@@ -35,7 +35,7 @@ public class TransactionController {
 		long start = currentTimeMillis();
 		Map<String, Object> model = new TreeMap<>();
 		RandomIdentifierGenerator identifierGenerator = new RandomIdentifierGenerator();
-		int threads = 10000;
+		int threads = 1;
 		int generations = 100000;
 		
 		model.put("generates", generations);
